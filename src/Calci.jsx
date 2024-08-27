@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Calci.css';
-import Keyboard from '.Keyboard'
+import Keyboard from './Keyboard'
 function Calci() {
     let [input,setInput]=useState("0");
     function handleClick(value){
