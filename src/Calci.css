@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.output{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 70px;
+    font-size: 32px;
+    padding: 2px 10px;
+    background-color: #333333;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    color: white;
+    text-align: right;
+}
+button{
+    width: 85px;
+    height: 90px;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    border-top:1px solid #666666 ;
+    border-right:1px solid #666666 ;
+}
+.operator{
+    background: #e2ef57;
+    border-right:none ;
+}
